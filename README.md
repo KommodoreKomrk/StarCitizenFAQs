@@ -1,0 +1,5 @@
+# StarCitizenFAQs
+Backups for FAQ and Helpdesk content for StarCitizen
+
+“This is an unofficial Star Citizen content repo, not affiliated with the Cloud Imperium group of companies.
+All content on this site not authored by its host or users are property of their respective owners.”  
