@@ -1,0 +1,128 @@
+{
+  "username": "Helpdesk",
+  "avatar_url": "https://i.imgur.com/wsEGJ0p.png",
+  "content": "[**↑ __Back to Table of Contents__ ↑**](https://discord.com/channels/82210263440306176/799140339876233246/889617018146422804)",
+  "embeds": [
+    {
+      "title": ":computer: Missing Install/Launch game button :computer:",
+      "color": 2054599,
+      "description": "This is a common bug, that can be fixed multiple ways:\n\n1. In the launcher **Settings** tab, scroll to the bottom, checkmark the option to \"Quit launcher when window is closed\". Close the launcher and then run it again as administrator.\n\n2. Log out of the launcher, and then log back in.\n\n3. Press SHIFT+CTRL+ALT+R to reset the launcher (and settings).",
+      "timestamp": "",
+      "author": {},
+      "image": {
+        "url": "https://i.imgur.com/qU2gjVh.png"
+      },
+      "thumbnail": {},
+      "footer": {},
+      "fields": []
+    },
+    {
+      "title": ":satellite: Launcher quits/crashes during download :satellite:",
+      "color": 2054599,
+      "description": "If your install is failing partway through the download then:\n\n**1.** Make sure that you're downloading/installing to an internal storage drive. You cannot download/install to an external drive, but may be able to copy the files over from an internal install, if you want to run the game on your external storage drive.\n\n**2.** Make sure you're on an __wired Ethernet connection__ if possible and not wireless/cellular. A stable internet connection is required to download and play.\n\n**3.** In the launcher settings:\nReduce \"Concurrent Downloads\" to 5\nReduce \"Download Speed Limit\" to __**lower**__ than your actual download speed\n\n**4.** Rebooting your modem, router, and PC can often help as well\n\n**5.** Try using a **VPN** ([Nord](https://nordvpn.com/offer/exclusive-risk-free-vpn) or [Express](https://www.expressvpn.com/go/features/vpn-trial) free trials)\n\n__Note:__ You may need to delete the in-progress download in case it was corrupted by deleting the \"data.p4k\" file or \"data.p4k.part\" file from /StarCitizen/LIVE/",
+      "author": {},
+      "image": {
+        "url": "https://i.imgur.com/Yn72Zbr.png"
+      },
+      "thumbnail": {},
+      "footer": {},
+      "fields": []
+    },
+    {
+      "title": ":link: Installer error during download | Check logs :link:",
+      "color": 2054599,
+      "description": "This is a generic error that has multiple causes. Make sure you have all the [prerequisites](https://support.robertsspaceindustries.com/hc/en-us/articles/360000148648). Please go down this list of troubleshooting steps. **Do not skip** any portion, even if you think \"you've done it before\", __do it again!__\n\n> Make sure Windows is __fully updated__.\n- If there's a pending update or a pending install, finish all of it and then restart your PC.\n\n> Make sure your graphics drivers are fully up to date using the correct program, either [NVIDIA Game Ready](https://www.nvidia.com/en-us/geforce/drivers/) or [AMD Adrenalin](https://www.amd.com/en/support). \n - Don't use third party installers.\n\n> Make sure your Firewall / Antirvirus have the **RSI Launcher** and **starcitizen.exe** [set as allowed/exclusions](https://www.makeuseof.com/how-to-allow-apps-windows-firewall/). Don't just disable them, it won't always work.\n- Some programs such as **Norton, Comodo, or BitDefender** __may not allow the game to run__, even with permissions set, we recommend uninstalling these and using Windows Defender.\n\n> Download or Redownload and install these: \n>1. [Microsoft .NET Framework 3.5](https://www.microsoft.com/en-us/download/details.aspx?id=21) \n>2. [Microsoft .NET Framework 4.5.2](https://www.microsoft.com/en-us/download/details.aspx?id=42642)\n>3. [Windows Media Feature Pack for Windows 10 N version](https://support.microsoft.com/en-us/topic/media-feature-pack-for-windows-10-n-november-2019-aaf0e378-8828-78d9-b91d-e378f82f252c) (Europe)\n>4. [Visual C++ Redistributables x86 and x64](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads)\n>5. [Vulkan graphics API runtime installer](https://vulkan.lunarg.com/sdk/home#sdk/downloadConfirm/latest/windows/vulkan-runtime.exe)\n\n```SCROLL DOWN FOR PART 2```",
+      "timestamp": "",
+      "author": {},
+      "image": {
+        "url": "https://i.imgur.com/o2w61Is.png"
+      },
+      "thumbnail": {},
+      "footer": {},
+      "fields": []
+    },
+    {
+      "title": "Installer Error continued-",
+      "color": 2054599,
+      "description": "Make sure **User Account Control** isn't blocking StarCitizen.exe\n- __Run the launcher as Admin__\n\nMake sure you don't have any other **third party software** interfering (Overlays, Streaming, etc)\n\nUnplug any extra **USB items** such as __Game Controllers, VR Headsets, and Joysticks__ that aren't active.\n\nMake sure your game is installed to an **Internal NTFS-formatted drive**, not external drive\n - __70GB free space is required__\n\nYou may need to manually create the subfolders under the library folder listed in Launcher -> Settings\n - if you are using the default folder C:\\Program Files\\Roberts Space Industries\\\nthen create: C:\\Program Files\\Roberts Space Industries\\**StarCitizen\\LIVE\\**\n\nSome people also find they need to __install to a directory other than \\Program Files\\ __ to get it to work.\n\n```For Windows 11 users with Samsung SSDs ONLY```\n[Microsoft](https://docs.microsoft.com/en-us/troubleshoot/sql/admin/troubleshoot-os-4kb-disk-sector-size) has confirmed an issue with Windows 11 and (Samsung) SSDs where it will show incorrect bytes per sector in the drive. \n\nTo confirm that you have this issue, Run CMD prompt as Admin and copy/paste:\n```fsutil fsinfo sectorinfo C:```\n**Change the letter C: to your SSD drive and then press enter**\n\nThe __PhysicalBytesPerSector__ should show up as **4096**\nIf the number is lower, then copy/paste the following:\n```reg add \"HKLM\\SYSTEM\\CurrentControlSet\\Services\\stornvme\\Parameters\\Device\" /v \"ForcedPhysicalSectorSizeInBytes\" /t reg_multi_sz /d \"* 4095\" /f```\n**Press enter, and then use the first CMD again, to see if it was corrected**\nWindows will show 4096, even though the command is 4095, this is correct.\n\n**__DO NOT ALTER ANYTHING IN THIS CMD__**\n\n**__DO NOT USE THIS CMD IF YOU DO NOT HAVE Windows 11 AND A SAMSUNG SSD__**\n\nIf none of this has worked for you, please ask us in <#82210365147979776>",
+      "timestamp": "",
+      "author": {
+        "name": ""
+      },
+      "image": {
+        "url": "https://i.imgur.com/o2w61Is.png"
+      },
+      "thumbnail": {},
+      "footer": {},
+      "fields": []
+    },
+    {
+      "title": ":keyboard: Sign in failed - code:error :keyboard:",
+      "color": 2054599,
+      "description": "This issue may appear when you've input your Username and Password correctly, but the 2 Factor Authentication has failed.\n\nTo work around this issue, please do the following steps:\n\n**1.** Manually type in your login ID and password once more to ensure that there was not a typo or other issue when entering the credentials before.\n\n**2.** Fully exit the RSI Launcher and ensure the process has been ended in the Windows Task Manager.\n - Go to the RSI Website on your web browser.\n - Click the Account link in the top right of the page and select Sign Out.\n - Open a Private or Incognito browser window.\n - Login to the RSI website through the Private/Incognito browser window. __Do not close this window!__\n - Once you have logged into your account via the RSI website, re-open the RSI Launcher.\n - Attempt to login via the RSI Launcher again.\n\n**3.** You can also click on the **Welcome Hub** link in the launcher, and attempt to sign in there.\n\n**4.** If you've **failed to log in too many times**, you will need to __wait 30 minutes or more__ before you can log in again.\n",
+      "timestamp": "",
+      "author": {},
+      "image": {
+        "url": "https://support.robertsspaceindustries.com/hc/article_attachments/360061697913/Code-Error.png"
+      },
+      "thumbnail": {},
+      "footer": {},
+      "fields": []
+    },
+    {
+      "title": ":floppy_disk: JavaScript error in main process :floppy_disk:",
+      "color": 2054599,
+      "description": "If your CPU (processor) is missing [AVX support](https://robertsspaceindustries.com/spectrum/community/SC/forum/1/thread/rsi-launcher-update-avx-requirements) they will get the \"A dynamic link library (DLL) initialization routine failed\" error shown below.\n\n**AVX technology** was introduced with Intel's Sandy Bridge processor and AMD's Bulldozer processor (both released in __2011__). This means that processors that pre-date this will no longer be able to effectively launch Star Citizen from the updated launcher.\n\nA processor without AVX **can not** run Star Citizen. It's __time to upgrade__.",
+      "timestamp": "",
+      "author": {},
+      "image": {
+        "url": "https://external-preview.redd.it/glVwuFfzT0a-yQ8EQJZsOh8x0lw9STgYBHEI5mHPSdE.png?auto=webp&s=3d51665f0637dd88acf6e54f27f7694eda2d4324"
+      },
+      "thumbnail": {},
+      "footer": {},
+      "fields": []
+    },
+    {
+      "title": ":desktop: Black screen after launch | Freezes at splash screen :desktop:",
+      "color": 2054599,
+      "description": "This usually happens due to a graphics error, or with multiple widescreen monitors.\n\n**1.** [Update your graphics drivers](https://support.robertsspaceindustries.com/hc/en-us/articles/360000081887-Guide-to-Graphic-Issues#drivers)\n\n**2.** [Force the game to use the proper resolution](https://support.robertsspaceindustries.com/hc/en-us/articles/360000081887-Guide-to-Graphic-Issues#large-res)\n\n**3.** [Disable nVidia 3D vision and G-Sync](https://support.robertsspaceindustries.com/hc/en-us/articles/360000081887-Guide-to-Graphic-Issues#gsync)\n\nIf none of this has worked for you, please ask us in <#82210365147979776>",
+      "timestamp": "",
+      "author": {},
+      "image": {
+        "url": "https://i.imgur.com/VSJLfKm.png"
+      },
+      "thumbnail": {},
+      "footer": {},
+      "fields": []
+    },
+    {
+      "title": ":electric_plug: \"Star Citizen has stopped running unexpectedly\" red window error :electric_plug:",
+      "color": 2054599,
+      "description": "There are multiple causes for this error, however the most common are:\n\n**1.** Any extra **USB items** such as __Game Controllers, VR Headsets, and Joysticks__.\n - Unplug these and try again.\n\n**2.** Overlocking your hardware can cause issues while running the game.\n - Some pre-built PCs are slightly overclocked by default, and is usually fine.\n\n**3.** Not having both the **RSI Launcher** and **starcitizen.exe** programs set as allowed through the firewall.\n\nThe [installer error guide](here) troubleshooting steps can also help with this error.\nOtherwise, please ask us in <#82210365147979776>",
+      "timestamp": "",
+      "author": {},
+      "image": {
+        "url": "https://support.robertsspaceindustries.com/hc/article_attachments/360000254908/verify-error.png"
+      },
+      "thumbnail": {},
+      "footer": {},
+      "fields": []
+    }
+    {
+      "title": "Failed to initialize game launcher",
+      "color": 2054599,
+      "description": "If you get this error when trying to launch the game, double check your EasyAntiCheat logs for the following error:\n```Press Windows+R keys and copy/paste in %appdata%\\EasyAntiCheat\\anticheatlauncher.log\nand/or\n%appdata%\\EasyAntiCheat\\service.log```\n**[Windows] [EAC Launcher] [Err!] [] Failed to open file stream for 'C:\\Users\\Helpdesk\\AppData\\Roaming\\EasyAntiCheat\\GameLauncher\\BrutalType-Bold.ttf', no previous file exists on disk.**\n\n[Download the missing Font files here](https://discord.com/channels/82210263440306176/82210365147979776/931998798304133130), and place them into the `AppData\\Roaming\\EasyAntiCheat\\gamelauncher` folder.",
+      "timestamp": "",
+      "author": {},
+      "image": {
+        "url": "https://preview.redd.it/6rw4qiqfoa881.png?width=281&format=png&auto=webp&s=29ecfd14ca1144cd6619213388f1ab237f8abd6f"
+      "thumbnail": {},
+      "footer": {},
+      "fields": []
+    }
+  ],
+  "components": []
+}
+  ],
+  "components": []
+}

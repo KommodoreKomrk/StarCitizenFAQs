@@ -1,0 +1,234 @@
+{
+  "username": "Helpdesk",
+  "avatar_url": "https://i.imgur.com/wsEGJ0p.png",
+  "content": "```Star Citizen & RSI Website Frequently Asked Questions```",
+  "embeds": [
+    {
+      "title": "Table of Contents",
+      "color": 0,
+      "description": "▻ [Website section](https://discord.com/channels/82210263440306176/900433210314461204/904942125249097729)\n\n◈ [RSI Launcher section](https://discord.com/channels/82210263440306176/900433210314461204/904942225178374155)\n\n☼ [EAC section](https://discord.com/channels/82210263440306176/900433210314461204/904942843481694248)\n\n▣ [Main Menu section](https://discord.com/channels/82210263440306176/900433210314461204/904942335832494121)\n\n◉ [In-game section](https://discord.com/channels/82210263440306176/900433210314461204/904942430154006559)\n\n🞲 [PTU section](https://discord.com/channels/82210263440306176/900433210314461204/904942481458753586)",
+      "timestamp": "",
+      "url": "",
+      "author": {
+        "name": "All information is compiled by our help staff volunteers",
+        "url": "",
+        "icon_url": ""
+      },
+      "image": {
+        "url": ""
+      },
+      "thumbnail": {
+        "url": "https://i.imgur.com/SOx5uOH.png"
+      },
+      "footer": {
+        "text": "",
+        "icon_url": ""
+      },
+      "fields": []
+    },
+    {
+      "title": ":warning: READ ME :warning:",
+      "color": 5452440,
+      "description": "“This is an unofficial Star Citizen discord, not affiliated with the Cloud Imperium group of companies. All content on this site not authored by its host or users are property of their respective owners.”  [[1]](https://robertsspaceindustries.com/tos)\n\nThis discord server is not managed or staffed by Cloud Imperium Games (the company) or CIG employees, as such, any advice offered may be limited as our volunteers do not have access do your personal or account information.\n\n**Do not ever give out your personal or account login information to anyone that asks, as none of it is required to properly troubleshoot any aspect of this game.**\n\nSome account-related issues can only be resolved by [contacting RSI Support](https://support.robertsspaceindustries.com/hc/en-us/requests/new).",
+      "timestamp": "",
+      "url": "",
+      "author": {
+        "name": "Important information",
+        "url": ""
+      },
+      "image": {
+        "url": ""
+      },
+      "thumbnail": {
+        "url": ""
+      },
+      "footer": {
+        "text": ""
+      },
+      "fields": []
+    },
+    {
+      "title": "Troubleshooting links",
+      "color": 0,
+      "description": "◿ [Official Star Citizen Support Articles](https://support.robertsspaceindustries.com/hc/en-us)\n\n◿ [Issue Council | Bug Reporting](https://issue-council.robertsspaceindustries.com/)\n\n◿ [Spectrum volunteer-helpdesk chat](https://robertsspaceindustries.com/spectrum/community/SC/lobby/7)",
+      "timestamp": "",
+      "url": "",
+      "author": {
+        "name": "",
+        "url": ""
+      },
+      "image": {},
+      "thumbnail": {
+        "url": "https://i.imgur.com/wNC2SSp.png"
+      },
+      "footer": {
+        "text": ""
+      },
+      "fields": []
+    },
+    {
+      "title": "RSI Website & Spectrum troubleshooting",
+      "color": 1522242,
+      "description": "▻ [Country drop-down list empty during checkout](https://discord.com/channels/82210263440306176/900433210314461204/904976541816078356)\n\n▻ [Payments & Transaction issues](https://discord.com/channels/82210263440306176/900433210314461204/904976569955647549)\n\n▻ [Can't add store credit](https://discord.com/channels/82210263440306176/900433210314461204/904976594395856946)\n\n▻ [Missing game package or ships](https://discord.com/channels/82210263440306176/900433210314461204/904976620987760650)\n\n▻ [What happens when you do a Character Reset](https://discord.com/channels/82210263440306176/900433210314461204/904976654487650315)\n\n▻ [Issue Council Login Error](https://discord.com/channels/82210263440306176/900433210314461204/904976689199738880)\n\n▻ [Issue Council Access Denied](https://discord.com/channels/82210263440306176/900433210314461204/904976706664812545)\n\n[**↑ __Back to Table of Contents__ ↑**](https://discord.com/channels/82210263440306176/900433210314461204/901217359241560065)",
+      "timestamp": "",
+      "url": "",
+      "author": {
+        "name": "",
+        "url": ""
+      },
+      "image": {},
+      "thumbnail": {
+        "url": "https://i.imgur.com/MoQA24R.png"
+      },
+      "footer": {
+        "text": ""
+      },
+      "fields": []
+    },
+    {
+      "title": "RSI Launcher | Installing, Downloading & Runtime Errors",
+      "color": 1415574,
+      "description": "◈ [Missing Install/Launch game button](https://discord.com/channels/82210263440306176/900433210314461204/905635612185477150)\n\n◈ [Launcher quits/crashes during download](https://discord.com/channels/82210263440306176/900433210314461204/905635657572036688)\n\n◈ [Installer error during download | Check logs](https://discord.com/channels/82210263440306176/900433210314461204/905635689280978954)\n\n◈ [Sign in failed - code:error](https://discord.com/channels/82210263440306176/900433210314461204/905635808650854431)\n\n◈ [JavaScript error in main process](https://discord.com/channels/82210263440306176/900433210314461204/905635909767155732)\n\n◈ [Black screen after launch | Freezes at splash screen](https://discord.com/channels/82210263440306176/900433210314461204/905635940540760104)\n\n◈ [\"Star Citizen has stopped running unexpectedly\" red window error](https://discord.com/channels/82210263440306176/900433210314461204/905636212440723546)\n\n◈ [Failed to initialize game launcher](https://discord.com/channels/82210263440306176/900433210314461204/905635966411231243)\n\n[**↑ __Back to Table of Contents__ ↑**](https://discord.com/channels/82210263440306176/900433210314461204/904941236429934592)",
+      "timestamp": "",
+      "url": "",
+      "author": {
+        "name": "",
+        "url": ""
+      },
+      "image": {
+        "url": "https://i.imgur.com/mnrTgGG.png"
+      },
+      "thumbnail": {
+        "url": "https://cdn.discordapp.com/attachments/900433210314461204/900877427255939142/RSI.png"
+      },
+      "footer": {
+        "text": ""
+      },
+      "fields": []
+    },
+    {
+      "title": "Star Citizen Main Menu",
+      "color": 1415574,
+      "description": "▣ [Select System Menu is Empty](https://discord.com/channels/82210263440306176/900433210314461204/905636401343770625)\n\n▣ [Error connecting to loadout services in Character Customizer](https://discord.com/channels/82210263440306176/900433210314461204/905636428178935858)\n\n▣ [Wide resolution issue | Edges of screen are cut off](https://discord.com/channels/82210263440306176/900433210314461204/905636452166164561)\n\n▣ [Infinite loading screen | Kicked to main menu with error 30009](https://discord.com/channels/82210263440306176/900433210314461204/905636475947876432)\n\n▣ [Hangar Module Not Available](https://discord.com/channels/82210263440306176/900433210314461204/905636500513906768)\n\n▣ [Error - CIG Services (Code 1600x and 1500x)](https://discord.com/channels/82210263440306176/900433210314461204/905636526103359488)\n\n▣ [Error - Disconnection (Code 20000 and 30000)](https://discord.com/channels/82210263440306176/900433210314461204/905636547561414726)\n\n▣ [Error - <=BAD TOKEN=>](https://discord.com/channels/82210263440306176/900433210314461204/905636567895400520)\n\n[**↑ __Back to Table of Contents__ ↑**](https://discord.com/channels/82210263440306176/900433210314461204/904941236429934592)",
+      "timestamp": "",
+      "url": "",
+      "author": {
+        "name": "",
+        "url": "",
+        "icon_url": ""
+      },
+      "image": {
+        "url": "https://i.imgur.com/pAsa7Yc.png"
+      },
+      "thumbnail": {
+        "url": "https://i.imgur.com/uOf7IcL.png"
+      },
+      "footer": {
+        "text": ""
+      },
+      "fields": []
+    },
+    {
+      "title": "In-game | Persistent Universe",
+      "color": 1415574,
+      "description": "__Server related__\n\n◉ [Are the game servers down? / How long do patches take?](https://discord.com/channels/82210263440306176/900433210314461204/905636993109737543) \n\n__Common In-Game issues__\n\n◉ [Crashing after waking up / in elevator / in train / in the city / every 5 minutes or less](https://discord.com/channels/82210263440306176/900433210314461204/905637399349039165)\n\n◉ [F2 / Skyline map is empty, nothing is showing](https://discord.com/channels/82210263440306176/900433210314461204/905637422585491537)\n\n◉ [MobiGlas is missing or non-functional / Invisible character / missing head or eyes](https://discord.com/channels/82210263440306176/900433210314461204/905637470501220413)\n\n◉ [Error when retrieving ship / Won't repair / Spawning in the air / Missing components or seats](https://discord.com/channels/82210263440306176/900433210314461204/905637494299693107)\n\n◉ [Trade terminal not showing ships or commodities](https://discord.com/channels/82210263440306176/900433210314461204/905637536980926485)\n\n◉ [Can't exit bed  / Ship parts raining down on you:](https://discord.com/channels/82210263440306176/900433210314461204/905637564520755230)\n\n[**↑ __Back to Table of Contents__ ↑**](https://discord.com/channels/82210263440306176/900433210314461204/904941236429934592)",
+      "timestamp": "",
+      "url": "",
+      "author": {
+        "name": "",
+        "url": "",
+        "icon_url": ""
+      },
+      "image": {
+        "url": ""
+      },
+      "thumbnail": {
+        "url": "https://i.imgur.com/uOf7IcL.png"
+      },
+      "footer": {
+        "text": ""
+      },
+      "fields": []
+    },
+    {
+      "title": "",
+      "color": 1415574,
+      "description": "__Common In-Game issues continued__\n\n◉ [Audio cutting out or CTD caused by audio glitch](https://discord.com/channels/82210263440306176/900433210314461204/905637592073142342)\n\n◉ [Refuel / Repair / Rearm not working](https://discord.com/channels/82210263440306176/900433210314461204/905637618191040553)\n\n◉ [Quantum Travel not working / Pressing B does nothing or shuts off the drive](https://discord.com/channels/82210263440306176/900433210314461204/905637641909846036)\n\n[**↑ __Back to Table of Contents__ ↑**](https://discord.com/channels/82210263440306176/900433210314461204/904941236429934592)",
+      "timestamp": "",
+      "url": "",
+      "author": {
+        "name": "In-game | Persistent Universe",
+        "url": "",
+        "icon_url": ""
+      },
+      "image": {
+        "url": ""
+      },
+      "thumbnail": {
+        "url": "https://i.imgur.com/uOf7IcL.png"
+      },
+      "footer": {
+        "text": ""
+      },
+      "fields": []
+    },
+    {
+      "title": "",
+      "color": 1415574,
+      "description": "__Prison Gameplay issues__\n\n◉ [Prison Mining console not working](https://discord.com/channels/82210263440306176/900433210314461204/905637911762980864)\n\n◉ [Stuck in prison / Escape fan doesn't work / Rover pod won't open](https://discord.com/channels/82210263440306176/900433210314461204/905637936173821992)\n\n◉ [Mining Multi-tool stuck on hand / Missing prison suit or helmet](https://discord.com/channels/82210263440306176/900433210314461204/905637956939821056)\n\n __Performance issues__\n\n◉ [Game is unplayable on Low settings / getting 1-5 FPS / too many stutters](https://discord.com/channels/82210263440306176/900433210314461204/905637979391926372)\n\n __Event related__\n\n◉ [XenoThreat event cargo](https://discord.com/channels/82210263440306176/900433210314461204/905638009104367617)\n\n__Keybinds, Camera controls and Joystick setup Issues__\n\n◉ [Controls don't work / Keybinds are not working / Key mapping is empty](https://discord.com/channels/82210263440306176/900433210314461204/905638031229341727)\n\n◉ [Disable camera following/zooming on target](https://discord.com/channels/82210263440306176/900433210314461204/905638057699581962)\n\n◉ [Disable mouse aim with leading reticule](https://discord.com/channels/82210263440306176/900433210314461204/905638083502960690)\n\n◉ [HOTAS Setup & Guide](https://discord.com/channels/82210263440306176/900433210314461204/905638113362215024)\n\n[**↑ __Back to Table of Contents__ ↑**](https://discord.com/channels/82210263440306176/900433210314461204/904941236429934592)",
+      "timestamp": "",
+      "url": "",
+      "author": {
+        "name": "In-game | Persistent Universe",
+        "url": "",
+        "icon_url": ""
+      },
+      "image": {
+        "url": "https://support.robertsspaceindustries.com/hc/article_attachments/360003600714/banner-ptu.png"
+      },
+      "thumbnail": {
+        "url": "https://i.imgur.com/uOf7IcL.png"
+      },
+      "footer": {
+        "text": ""
+      },
+      "fields": []
+    },
+    {
+      "title": "Public Test Universe (PTU) Launcher & Main Menu",
+      "color": 1415574,
+      "description": "__Launcher__\n\n __Main menu__\n\n🞲 [Select System Menu is Empty](https://discord.com/channels/82210263440306176/799140339876233246/889617018146422804)\n\n __Patches and Releases__\n\n🞲 [When will Wave 1/2/Open PTU happen & what are they?](https://discord.com/channels/82210263440306176/900433210314461204/905638432741654599)\n\n🞲 [When will the PTU into LIVE patch be released?](https://discord.com/channels/82210263440306176/900433210314461204/905638455059550208)\n\n[**↑ __Back to Table of Contents__ ↑**](https://discord.com/channels/82210263440306176/900433210314461204/904941236429934592)",
+      "timestamp": "",
+      "url": "",
+      "author": {
+        "name": "",
+        "url": "",
+        "icon_url": ""
+      },
+      "image": {
+        "url": ""
+      },
+      "thumbnail": {
+        "url": "https://i.imgur.com/uOf7IcL.png"
+      },
+      "footer": {
+        "text": ""
+      },
+      "fields": []
+    },
+    {
+      "title": "[EAC] Easy Anti Cheat Issues and Errors",
+      "color": 1415574,
+      "description": "__Launcher__\n\n☼ [Untrusted system file error](https://discord.com/channels/82210263440306176/900433210314461204/949145617932882003)\n\n☼ [Error - Anticheat (CODE: 0)](https://discord.com/channels/82210263440306176/900433210314461204/949145671473176626)\n\n☼ [Easy Anti-Cheat Launch Error](https://discord.com/channels/82210263440306176/900433210314461204/949145722652098592)\n\n[**↑ __Back to Table of Contents__ ↑**](https://discord.com/channels/82210263440306176/900433210314461204/904941236429934592)",
+      "timestamp": "",
+      "author": {},
+      "image": {},
+      "thumbnail": {
+        "url": "https://i.imgur.com/7lY7GgA.png"
+      },
+      "footer": {},
+      "fields": []
+    }
+  ],
+  "components": []
+}

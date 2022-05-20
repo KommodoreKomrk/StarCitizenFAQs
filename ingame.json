@@ -1,0 +1,138 @@
+{
+  "username": "Helpdesk",
+  "avatar_url": "https://i.imgur.com/wsEGJ0p.png",
+  "content": "",
+  "embeds": [
+    {
+      "title": ":construction:  Game servers down? / How long do patches take? :construction:",
+      "color": 6001657,
+      "description": "Please check <#740956475853111427> and <#585952222853201941> to see if the game servers are __offline__, undergoing __maintenance__ or are being updated to the __newest patch__. If they are being updated, it will be labeled as **Live Deployment** and/or Star Citizen Alpha 3.x.x **LIVE** not PTU.\n\n**Server maintenance** may have an estimated timeframe of completion, but usually takes 2-4 hours to complete.\n**Patches** **__do not__** have a set timeframe of completion. It may take __30 minutes__, or __3 hours__.\n<#740956475853111427> will be updated when everything is back online.\n\n__Note:__ There is not a wipe every patch, and it is rarely announced beforehand.\nCheck <#585952222853201941> for the following keywords:\nLong Term Persistence: **Enabled** - Not a wipe\nLong Term Persistence: **Disabled** - There was a wipe\n\nA reset is not a wipe, therefore: Database Reset: YES or NO will not confirm a wipe.\nNormally, a full wipe will reset every player to only what is listed on their Account hanger (on the website), however going forward they will be able to wipe only portions of our accounts, separating the ships, inventory/gear, and money. (this portion will be updated later to reflect that)",
+      "timestamp": "",
+      "author": {},
+      "image": {
+        "url": "https://i.imgur.com/ZrBdr5i.png"
+      },
+      "thumbnail": {},
+      "footer": {},
+      "fields": []
+    },
+    {
+      "title": ":anger: Crashing after waking up / every 5 minutes or less :anger:",
+      "color": 6001657,
+      "description": "If you receive an out of memory error, or are crashing to the desktop every 10 minutes or less, you may need to increase your [pagefile](https://support.robertsspaceindustries.com/hc/en-us/articles/360000083387-Out-of-memory-errors-set-your-pagefile) size for Windows on the fastest drive on your system with available space. Remember, 16GB is the [minimum required RAM](https://support.robertsspaceindustries.com/hc/en-us/articles/360042417374-Star-Citizen-Minimum-System-Requirements) amount for Star Citizen.\n\n> Set a specific pagefile amount:\n> \n> **1.** Go to the Start Menu and click on Settings.\n> **2. **Type performance.\n> **3.** Choose Adjust the appearance and performance of Windows.\n> **4.** In the new window, go to the Advanced tab and under the Virtual memory section, click on Change.\n> **5.** Don't create a new pagefile, select the one that already exists.\n> **6.** Deselect the Automatically manage paging file size for all drives box at the top.\n> **7.** Click Custom and enter a size range. Enter the **Initial Size of 16384 MB  and Maximum size of 32768 MB**. Remember this is in MB, so you need to increase the numbers by 1000 for GB.\n> **8. **Click Set then Ok.\n> **9.** Restart your PC",
+      "timestamp": "",
+      "author": {},
+      "image": {
+        "url": "https://preview.redd.it/9eb0swlz6no41.png?auto=webp&s=60e103623b890c31ff6cf2496309110e6353e2b4"
+      },
+      "thumbnail": {},
+      "footer": {},
+      "fields": []
+    },
+    {
+      "title": ":star2: F2 / Skyline map is empty, nothing is showing :star2:",
+      "color": 6001657,
+      "description": "The map starts out fully zoomed in, but may have a visual glitch sometimes.\n\nUse the **scroll wheel** or double click right mouse button to full zoom out. If bugged, exit the map/mobiglas completely, and retry until it works, zooming in and out until you see the planets.\n\nYou may also need to delete the **\\shaders folder** located in your game install directory \\StarCitizen\\LIVE\\User",
+      "timestamp": "",
+      "author": {},
+      "image": {
+        "url": "https://support.robertsspaceindustries.com/hc/article_attachments/360029133913/ScreenShot0037.jpg"
+      },
+      "thumbnail": {},
+      "footer": {},
+      "fields": []
+    },
+    {
+      "title": ":do_not_litter: MobiGlas broken / Invisible head or eyes :do_not_litter:",
+      "color": 6001657,
+      "description": "All of the character's equipment is added as \"bones\" on the character, so if anything fails to spawn in (head), anything attached to it will also fail to spawn (helmet/eyes/HUD)\n\nIf you notice __chat__, mission __markers__, or any __HUD__ elements are missing, **press F4** to check your character's head/eyes.\n\n> Solutions:\n> \n> **1. **Entering character customization and changing your character's gender, appearance, and attributes several times may correct these issues.\n> `Main Menu -> Universe -> Character Customization`\n> \n> ***After changing your appearance, enter the Public Universe. If not resolved please try customizing again.***\n> \n> **2.** If the above doesn't work, consider doing a [character reset](https://discord.com/channels/82210263440306176/900433210314461204/901925148284838001).",
+      "timestamp": "",
+      "author": {},
+      "image": {
+        "url": "https://i.redd.it/ryp3u4rebu771.png"
+      },
+      "thumbnail": {},
+      "footer": {},
+      "fields": []
+    },
+    {
+      "title": ":rocket: Error retrieving ship / Missing components :rocket:",
+      "color": 6001657,
+      "description": "When attempting to retrieve your ship at the Fleet Manager terminals, you may see the **error below**, or your ship may be **spawned in the air**, where you cannot reach it.\n\nIf your ship also spawned normally, but the __doors are not working__, you __cannot interact__ with the ship, or it's **[missing hull panels, components, and seats](https://support.robertsspaceindustries.com/hc/en-us/articles/360027385033-Ships-Spawn-with-Missing-Components)**, the __ship is bugged__.\n\nAll of these issues can normally be fixed by **traveling to a completely different station, and claiming the ship there** (either use __another ship__ or __ask in chat__ for a ride).\n\nIf that does not work, a [character reset](https://discord.com/channels/82210263440306176/900433210314461204/905340752937230367) will fix all bugged ships.",
+      "timestamp": "",
+      "author": {},
+      "image": {
+        "url": "https://i.imgur.com/9hkb9Eo.jpeg"
+      },
+      "thumbnail": {},
+      "footer": {},
+      "fields": []
+    },
+    {
+      "title": ":currency_exchange: Trade terminal not showing ships or inventory :currency_exchange:",
+      "color": 6001657,
+      "description": "This usually happens if server is dying or the loading time increased for registering nearby ships.\n\n**Leave the Armistice zone**, wait 2 minutes and then return. It should 'refresh' the terminal.\n\n",
+      "timestamp": "",
+      "author": {},
+      "image": {
+        "url": "https://preview.redd.it/cnzraa0vwbw31.jpg?width=1920&format=pjpg&auto=webp&s=af50267435a37589aa618ffd74b06db72de31f5b"
+      },
+      "thumbnail": {},
+      "footer": {},
+      "fields": []
+    },
+    {
+      "title": ":bed: Ship components raining down around you :bed:",
+      "color": 6001657,
+      "description": "This happens when your ship is __bugged beyond help__, or you used the **ejector seat** in certain ships.\n\nThe only fix is a [character reset](https://discord.com/channels/82210263440306176/900433210314461204/901925148284838001).\n\n",
+      "timestamp": "",
+      "author": {},
+      "image": {
+        "url": "https://i.redd.it/5krn323jyxe61.png"
+      },
+      "thumbnail": {},
+      "footer": {},
+      "fields": []
+    },
+    {
+      "title": ":loud_sound: Audio cutting out or CTD caused by audio glitch :loud_sound:",
+      "color": 6001657,
+      "description": "Make sure your sample rate isn't higher than **44.1 KHz**.\n\n[How to change your audio sample rate](https://answers.microsoft.com/en-us/windows/forum/windows_10-other_settings/how-to-change-sound-control-panel-settings-in/5a70718b-7ecf-4547-a64a-22efda8da0c2?auth=1)\n\n",
+      "timestamp": "",
+      "author": {},
+      "image": {
+        "url": "https://i.imgur.com/Ja192hB.png"
+      },
+      "thumbnail": {},
+      "footer": {},
+      "fields": []
+    },
+    {
+      "title": "Refuel / Repair / Rearm not working",
+      "color": 6001657,
+      "description": "Common bug, there is no way to completely avoid it, but there are workarounds:\n\n1. **Store your ship**, or claim if you have no cargo. When retrieving again, refueling/rearming should work\n\n2. **Take off and wait for the ATC message**. Request landing again but __hover__ over the pad without touching it.\n\n",
+      "timestamp": "",
+      "author": {},
+      "image": {
+        "url": "https://preview.redd.it/lo3c1xzagt361.png?width=1920&format=png&auto=webp&s=029ed0ce7f118f27dd03b50c7068aa4818fe4e2b"
+      },
+      "thumbnail": {},
+      "footer": {},
+      "fields": []
+    },
+    {
+      "title": "QT not working / Holding B doesn't work",
+      "color": 6001657,
+      "description": "Usually the ship is **not finished calculating the route**, or there is in **invisible barrier** (the sun, or a nearby station) blocking the route\n\nWhen activating QT, look **away from the target**. Press B to activate the drive, and then look at the target. If it still does not work, __jump to a nearby location__ such as an OM-1 (orbital marker) or moon first, before going back to the original destination.",
+      "timestamp": "",
+      "author": {},
+      "image": {
+        "url": "https://support.robertsspaceindustries.com/hc/article_attachments/360028321854/ScreenShot0049.jpg"
+      },
+      "thumbnail": {},
+      "footer": {},
+      "fields": []
+    }
+  ],
+  "components": []
+}

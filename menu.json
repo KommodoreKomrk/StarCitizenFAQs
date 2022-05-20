@@ -1,0 +1,126 @@
+{
+  "username": "Helpdesk",
+  "avatar_url": "https://i.imgur.com/wsEGJ0p.png",
+  "content": "",
+  "embeds": [
+    {
+      "title": ":earth_americas: Select System Menu is Empty :earth_asia:",
+      "color": 3132620,
+      "description": "This is usually due to a few reasons:\n\n**1.** You recently purchased a Game Package, but the transaction is still **Pending**.\n - Check your [account billings](https://robertsspaceindustries.com/account/billing) section and refer to [this guide](https://discord.com/channels/82210263440306176/900433210314461204/904976569955647549).\n\n**2.** You recently **melted** your Game Package and bought a Standalone Ship instead.\n - Please refer to [this guide](https://discord.com/channels/82210263440306176/900433210314461204/904976620987760650)\n\n**3.** The server recently went **down for maintenance** or are being updated to the **latest patch**.\n - See <#740956475853111427>\n\n**4.** You switched from the **PTU servers to LIVE** without __refreshing the launcher__.\n - Log out of the launcher, wait 2 minutes and log back in.",
+      "author": {},
+      "image": {
+        "url": "https://i.imgur.com/CiZawiqh.jpg"
+      },
+      "thumbnail": {
+        "url": ""
+      },
+      "footer": {},
+      "fields": []
+    },
+    {
+      "title": ":satellite_orbital: Error connecting to loadout services :satellite_orbital: ",
+      "color": 3132620,
+      "description": "This error usually appears when the servers are [undergoing maintenance](here) or your security software is [blocking the connection](here) to the game.\n\n",
+      "timestamp": "",
+      "author": {},
+      "image": {
+        "url": "https://i.imgur.com/aU3lOM4.png"
+      },
+      "thumbnail": {
+        "url": ""
+      },
+      "footer": {},
+      "fields": []
+    },
+    {
+      "title": ":tv: Resolution issues | Edges of screen are cut off :tv:",
+      "color": 3132620,
+      "description": "When using a TV or monitor with a wider than standard resolution, you'll want to [create a custom user.cfg](https://support.robertsspaceindustries.com/hc/en-us/articles/360000081887-Guide-to-Graphic-Issues#large-res) file to force the game into your monitor's aspect ratio.",
+      "timestamp": "",
+      "author": {},
+      "image": {
+        "url": "https://i.imgur.com/zQn57Lz.png"
+      },
+      "thumbnail": {
+        "url": ""
+      },
+      "footer": {},
+      "fields": []
+    },
+    {
+      "title": ":infinity: Infinite loading screen | Kicked to main menu :infinity:",
+      "color": 3132620,
+      "description": "__Note__: You can open the console ( ~ key) and type r_displayinfo 3 into the console (then press enter) to show the FPS, frame time in MS and other details in an overlay to help indicate if you are frozen or not. You may also get error code: 30009\n\nThis is a common issue that normally **happens when logging out of a bed**, or directly **after a 30k** error. The following workarounds have the best chances of fixing the issue:\n\n> **1.** Try selecting a different regional server before pressing the ‘Visit Location’ button. Try EU, US, AUS for example (top right). It's usually set to 'BEST'.  (may require several attempts)\n\n> **2.** Do the following in order, and all at the same time. Not separately:\n\n> - Exit the game and log out of the launcher\n> - Delete your User folder (program files\\Roberts Space Industries\\Star Citizen\\LIVE)\n> - Run the launcher as Admin, log back in and join the Stanton system again\n> - While in the loading screen, press ~ to open the console type QUIT, press enter\n> Join the Stanton System again and it may be fixed.\n\n> The above is a combination of **several methods** that seems to work.\n> Otherwise a [character reset](https://discord.com/channels/82210263440306176/900433210314461204/904976654487650315) should fix everything, provided you wait __at least 1 hour__ after resetting before getting back into the game.",
+      "timestamp": "",
+      "author": {},
+      "image": {
+        "url": "https://i.imgur.com/umlr0Vl.gif"
+      },
+      "thumbnail": {
+        "url": ""
+      },
+      "footer": {},
+      "fields": []
+    },
+    {
+      "title": ":headstone: Hangar Module Not Available :headstone:",
+      "color": 3132620,
+      "description": "The hanger modules are currently disabled, and may or may not return.\n\nSee: [CIG's article on the hanger modules](https://support.robertsspaceindustries.com/hc/en-us/articles/360056254754-Star-Citizen-Alpha-3-14-Known-Issues#h_01FDYXG83RSYC9M3KJ46GTQNN4)",
+      "timestamp": "",
+      "author": {},
+      "image": {
+        "url": "https://i.imgur.com/Q6FanJj.png"
+      },
+      "thumbnail": {
+        "url": ""
+      },
+      "footer": {},
+      "fields": []
+    },
+    {
+      "title": ":x: Error - CIG Services (Code 1600x and 1500x) :x: ",
+      "color": 3132620,
+      "description": "[**1600x** and **1500x** errors](\nhttps://support.robertsspaceindustries.com/hc/en-us/articles/360012425434-Error-Code-15008-16008) mean you are unable to connect to the authentication servers for your region.\n\n__Possible causes__:\n**1.** The authentication servers for your region are **down or blocked** due to a network outage. (Rarely lasts more than 12 hours)\n\n**2.** You have something like a **Firewall, VPN, or DNS issue** preventing access to the authentication servers from your end\n\n**3.** You have corrupted account data and need to [contact customer support](https://support.robertsspaceindustries.com/hc/en-us/requests/new) to get it fixed.\n\n**4.** You have the Epic Games Launcher installed on the same drive as Star Citizen. **Epic's EasyAntiCheat conflicts with Star Citizen's**, so you can either uninstall the Epic Launcher or move Star Citizen to another SSD.",
+      "author": {},
+      "image": {
+        "url": "https://i.imgur.com/7c8vosu.png"
+      },
+      "thumbnail": {
+        "url": ""
+      },
+      "footer": {},
+      "fields": []
+    },
+    {
+      "title": ":x: Error - Disconnection (Code 20000 and 30000) :x:",
+      "color": 3132620,
+      "description": "Code **20000/30000** is a [general timeout](https://support.robertsspaceindustries.com/hc/en-us/articles/360053608633-Error-Code-20000-30000) message. This appears when the player loses connection to the game server (such as a server crash) or times out connecting but remains connected to the hub server.\n\n**Simply reconnecting to the servers** should work, however some users may need to __log out of the launcher for a bit__, before trying again.",
+      "timestamp": "",
+      "author": {},
+      "image": {
+        "url": "https://support.robertsspaceindustries.com/hc/article_attachments/360086771094/SC_Error20000-30000.jpg"
+      },
+      "thumbnail": {
+        "url": ""
+      },
+      "footer": {},
+      "fields": []
+    },
+    {
+      "title": ":x: Error - <=BAD TOKEN=> :x: ",
+      "color": 3132620,
+      "description": "This usually happens **after a 30k error**, and prevents you from getting back into the game temporarily. __Restarting the game client__ should fix this.",
+      "timestamp": "",
+      "author": {},
+      "image": {
+        "url": "https://i.imgur.com/Pq1Luaa.png"
+      },
+      "thumbnail": {
+        "url": ""
+      },
+      "footer": {},
+      "fields": []
+    }
+  ],
+  "components": []
+}

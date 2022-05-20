@@ -1,0 +1,46 @@
+{
+  "username": "Helpdesk",
+  "avatar_url": "https://i.imgur.com/wsEGJ0p.png",
+  "content": "",
+  "embeds": [
+    {
+      "title": "Select System Menu is Empty",
+      "color": 7610255,
+      "description": "This happens when you switch from the **LIVE to PTU servers without refreshing** your launcher. __Log out of the launcher, wait 2 minutes, and then log back in__.",
+      "author": {},
+      "image": {
+        "url": "https://support.robertsspaceindustries.com/hc/article_attachments/360040130494/temp_ptu_copy.jpg"
+      },
+      "thumbnail": {},
+      "footer": {},
+      "fields": []
+    },
+    {
+      "title": "What is the PTU & When will Wave 1/2/Open PTU happen?",
+      "color": 7610255,
+      "description": "The PTU (Public Test Universe) is a replica environment of all servers needed to operate the game and the platform. This environment exists to allow public testing phases of unreleased patches of the game and platform, but under tight access control.\n\nAccess to the PTU requires an invitation and is handled in waves to control the amount of players in the environment based on testing needs. The PTU also includes the Evocati Test Flight group, an advance team of player testers.\n\n**The current [PTU release format](https://support.robertsspaceindustries.com/hc/en-us/articles/115013195927-Public-Test-Universe-PTU-FAQ) is as follows:**\n\n   ```css\n[Evocati:] Our smallest group of testers who help us get our releases ready for a proper public viewing more quickly! Picked from Issue Council posters with multiple submissions or contributions and from our most active PTU testers.```\nEvocati releases are not public announced, and all information is restricted under an [NDA](https://en.wikipedia.org/wiki/Non-disclosure_agreement). May take __1-3 weeks__.\n\n\n   ```css\n[Subs and Concierge Wave:] All RSI accounts that are {:'active subscribers'} and {:'Concierge members'} will be invited to join the PTU testing after we open this wave.  This is sometimes referred to as **Wave 1**.```\nWave 1 is the first public PTU release, and usually goes for **3-4 weeks**.\n\n\n\n    ```css\n[Active Participation Wave]: All members of the previous waves plus any players that have been very {:'active and involved on the Issue Council'}, plus players with the {:'highest amount of playtime'} across all game modes.  This group is sometimes referred to as **Wave 2**.```\nWave 2 usually takes around __1-2 weeks__, or may be skipped for Open PTU.\n\n\n    ```css\n[Open PTU:] The PTU servers and access will be opened to {:'all backers with a game package'}.``` Lasts up until the [Quarterly](https://www.youtube.com/watch?v=wENuiIcPK10&t=157s) deadline and then is patched into LIVE.",
+      "timestamp": "",
+      "author": {},
+      "image": {
+        "url": "https://i.ytimg.com/vi/L036YOJk9vI/maxresdefault.jpg"
+      },
+      "thumbnail": {},
+      "footer": {},
+      "fields": []
+    },
+    {
+      "title": "When will the PTU into LIVE patch be released?",
+      "color": 7610255,
+      "description": "",
+      "timestamp": "",
+      "author": {},
+      "image": {
+        "url": "https://aq3d.com/media/1312/il_fullxfull277859813.png"
+      },
+      "thumbnail": {},
+      "footer": {},
+      "fields": []
+    }
+  ],
+  "components": []
+}

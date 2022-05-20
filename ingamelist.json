@@ -1,0 +1,48 @@
+{
+  "content": "",
+  "embeds": [
+    {
+      "title": "In-game | Persistent Universe",
+      "color": 1415574,
+      "description": "__Server related__\n\n◉ [Are the game servers down? / How long do patches take?](https://discord.com/channels/82210263440306176/900433210314461204/902086503184883732) \n\n__Common In-Game issues__\n\n◉ [Crashing after waking up / in elevator / in train / in the city / every 5 minutes or less](https://discord.com/channels/82210263440306176/900433210314461204/902086574118953000)\n\n◉ [F2 / Starmap is empty, nothing is showing](https://discord.com/channels/82210263440306176/900433210314461204/902086613142757386)\n\n◉ [MobiGlas is missing or non-functional / Invisible character / missing head or eyes](https://discord.com/channels/82210263440306176/900433210314461204/902086648068702238)\n\n◉ [Error when retrieving ship / Won't repair / Spawning in the air / Missing components or seats](https://discord.com/channels/82210263440306176/900433210314461204/902086705815904276)\n\n◉ [Trade terminal not showing ships or commodities](https://discord.com/channels/82210263440306176/900433210314461204/902086758970314813)\n\n◉ [Ship parts spawn/raining down around you:](https://discord.com/channels/82210263440306176/900433210314461204/902086804524646470)\n\n[**↑ __Back to Table of Contents__ ↑**](https://discord.com/channels/82210263440306176/900433210314461204/901217359241560065)",
+      "author": {},
+      "image": {},
+      "thumbnail": {
+        "url": "https://i.imgur.com/uOf7IcL.png"
+      },
+      "footer": {},
+      "fields": []
+    },
+    {
+      "color": 5742318,
+      "description": "__Common In-Game issues continued__\n\n◉ [Audio cutting out or CTD caused by audio glitch](https://discord.com/channels/82210263440306176/900433210314461204/902086842952871966)\n\n◉ [Refuel / Repair / Rearm not working](https://discord.com/channels/82210263440306176/900433210314461204/902086870870151189)\n\n◉ [Quantum Travel not working / Pressing B does nothing or shuts off the drive](https://discord.com/channels/82210263440306176/900433210314461204/902086898384797706)\n\n[**↑ __Back to Table of Contents__ ↑**](https://discord.com/channels/82210263440306176/900433210314461204/901217359241560065)",
+      "timestamp": "",
+      "author": {
+        "name": "In-game | Persistent Universe"
+      },
+      "image": {},
+      "thumbnail": {
+        "url": "https://i.imgur.com/uOf7IcL.png"
+      },
+      "footer": {},
+      "fields": []
+    },
+    {
+      "color": 5742318,
+      "description": "__Prison Gameplay issues__\n\n◉ [Prison Mining console not working](https://discord.com/channels/82210263440306176/900433210314461204/902304783384318042)\n\n◉ [Stuck in prison / Escape fan doesn't work / Rover pod won't open](https://discord.com/channels/82210263440306176/900433210314461204/902304811104469032)\n\n◉ [Mining Multi-tool stuck on hand / Missing prison suit or helmet](https://discord.com/channels/82210263440306176/900433210314461204/902304834714218496)\n\n __Performance issues__\n\n◉ [Game is unplayable on Low settings / getting 1-5 FPS / too many stutters](https://discord.com/channels/82210263440306176/900433210314461204/902304858420441098)\n\n __Event related__\n\n◉ [XenoThreat event cargo](https://discord.com/channels/82210263440306176/900433210314461204/902304889458294824)\n\n__Keybinds, Camera controls and Joystick setup Issues__\n\n◉ [Controls don't work / Keybinds are not working / Key mapping is empty](https://discord.com/channels/82210263440306176/900433210314461204/902304921892839424)\n\n◉ [Disable camera following/zooming on target](https://discord.com/channels/82210263440306176/900433210314461204/902304947822002207)\n\n◉ [Disable mouse aim with leading reticule](https://discord.com/channels/82210263440306176/900433210314461204/902304973520523364)\n\n◉ [HOTAS Setup & Guide](https://discord.com/channels/82210263440306176/900433210314461204/902304995960041542)\n\n[**↑ __Back to Table of Contents__ ↑**](https://discord.com/channels/82210263440306176/900433210314461204/901217359241560065)",
+      "timestamp": "",
+      "author": {
+        "name": "In-game | Persistent Universe"
+      },
+      "image": {
+        "url": "https://support.robertsspaceindustries.com/hc/article_attachments/360003600714/banner-ptu.png"
+      },
+      "thumbnail": {
+        "url": "https://i.imgur.com/uOf7IcL.png"
+      },
+      "footer": {},
+      "fields": []
+    }
+  ],
+  "components": []
+}
